@@ -69,12 +69,12 @@ namespace соня_проект_ушакова
         private void save_corpse_Click(object sender, EventArgs e)
         {
             SaveFileDialog saveFileDialog = new SaveFileDialog();
-            saveFileDialog.Filter = "Text files (*.txt)|*.txt";
+            saveFileDialog.Filter = "Текстовые файлы (*.txt)|*.txt";
 
             if (saveFileDialog.ShowDialog() == DialogResult.OK)
             {
                 morg.SaveToFile(saveFileDialog.FileName);
-                MessageBox.Show("Data saved to file");
+                MessageBox.Show("Данные сохранены в файл");
             }
         }
 

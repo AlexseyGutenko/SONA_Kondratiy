@@ -52,7 +52,7 @@
             this.drop_courpse.Name = "drop_courpse";
             this.drop_courpse.Size = new System.Drawing.Size(75, 23);
             this.drop_courpse.TabIndex = 1;
-            this.drop_courpse.Text = "удолить ";
+            this.drop_courpse.Text = "удалить ";
             this.drop_courpse.UseVisualStyleBackColor = true;
             this.drop_courpse.Click += new System.EventHandler(this.drop_courpse_Click);
             // 
